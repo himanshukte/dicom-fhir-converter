@@ -1,4 +1,4 @@
-# dicom-fhir-converter
+## dicom-fhir-converter
 DICOM FHIR converter is an open source python library that accepts a DICOM directory as an input.
 It processes all files (instances) within that directory. It expects that directory will only contain files for a single study.
 If multiple studies detected, an exception is raised. 
