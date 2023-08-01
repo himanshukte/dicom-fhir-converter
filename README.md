@@ -130,5 +130,11 @@ Until such time, all of the a data is included within a single resource.
 }
 ```
 
+## IGW -> igw.tf
+By default, this module will not provision the Internet gateway. To enable/provision IGW, enable the flag "network_enable" from the root module.
+
+```hcl
+ network_enable                = true
+```
 
 
